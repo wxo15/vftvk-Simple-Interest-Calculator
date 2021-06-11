@@ -7,10 +7,10 @@
     </head>
     <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
-
-        Amount <input type="number"  id="principal" onchange="validateAmount()">  <br/>
-        Rate <input type="range"  id="rate" min="1" max="20" step="0.25" value="10.25" oninput="updateRate()"> <span id="rate_val">10.25%</span> <br/>
-        No. of Years <select id="years">
+		<div class="container">
+        <label>Amount</label> <input type="number"  id="principal" onchange="validateAmount()">  <br/>
+        <label>Rate</label> <input type="range"  id="rate" min="1" max="20" step="0.25" value="10.25" oninput="updateRate()"> <span id="rate_val">10.25%</span> <br/>
+        <label>No. of Years</label> <select id="years">
 							<option value="1">1</option>
 							<option value="2">2</option>
 							<option value="3">3</option>
@@ -21,7 +21,9 @@
 							<option value="8">8</option>
 							<option value="9">9</option>
 							<option value="10">10</option>
-							</select>  <br/>
+							</select>  
+		</div>					
+		<br/>
 		<br/>
         <button onclick="compute()">Compute Interest</button>
 		<br>
@@ -30,7 +32,7 @@
 		<br>
 		<br>
 	<footer>
-        &#169; This calculator belongs to Max Ooi.
+        &#169; Everyone Can Get Rich 
 	</footer>
     </div>
 </html>

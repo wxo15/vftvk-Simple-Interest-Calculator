@@ -19,3 +19,8 @@ h1{
 	border-radius:25px;
 	margin:auto
 }
+
+.container label{
+	width:100px;
+	display:inline-block
+}
